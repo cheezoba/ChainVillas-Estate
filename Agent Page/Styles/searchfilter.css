@@ -1,0 +1,131 @@
+.search-filter {
+  display: inline-flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 40px;
+  margin-left: 72px;
+
+}
+
+.filter-items {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.search-bar {
+  display: flex;
+  width: 468px;
+  height: 25px;
+  padding: 24px;
+  align-items: center;
+  gap: 10px;
+  border-radius: 8px;
+  border: 1px solid;
+  border-color: rgba(59, 70, 67, 1);
+  background: rgba(237, 237, 245, 1);
+  font-size: 18px;
+
+}
+
+.search-bar::placeholder {
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: rgba(59, 70, 67, 1);
+}
+
+.agent-button {
+  display: flex;
+  padding: 24px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 10px;
+  border: 1px solid var(--golden-gate-primary-slate-blue-s-300, #4C469F);
+  background: var(--golden-gate-neutral-n-40, #DEE0DF);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 150%;
+  color: rgba(59, 70, 67, 1);
+
+}
+
+.rating-button {
+  display: flex;
+  padding: 24px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: rgba(59, 70, 67, 1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: rgba(59, 70, 67, 1);
+
+}
+
+.experience-button {
+  display: flex;
+  padding: 24px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: rgba(59, 70, 67, 1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: rgba(59, 70, 67, 1);
+}
+
+.service-needed-button {
+  display: flex;
+  padding: 24px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: rgba(59, 70, 67, 1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: rgba(59, 70, 67, 1);
+}
+
+.more-button {
+  display: flex;
+  padding: 24px 12px;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: rgba(59, 70, 67, 1);
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%;
+  color: rgba(59, 70, 67, 1);
+}
+
+.search-icon-button {
+  display: flex;
+  padding: 24px;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  border-radius: 10px;
+  border: 1px solid;
+  background-color: rgba(76, 70, 159, 1);
+  color: rgba(255, 255, 255, 1);
+}
